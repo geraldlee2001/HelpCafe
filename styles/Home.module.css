@@ -114,6 +114,11 @@
   height: 1em;
 }
 
+.Login{
+  width:400px;
+  margin:auto;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

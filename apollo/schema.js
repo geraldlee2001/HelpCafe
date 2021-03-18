@@ -8,7 +8,7 @@ type User {
   phoneNum: String!
 }
 
-type Food{
+type Food{a
   foodId: String!
   name:String!
   price:Float!
@@ -45,4 +45,4 @@ type Mutation {
 }
 `)
 
-export default schema;
+export {schema};

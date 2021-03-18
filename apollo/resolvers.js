@@ -1,7 +1,5 @@
-import {createUser} from '../lib/user';
-const User = {}
+const { createUser } = require('../lib/user');
 const resolvers = {
-    
     Query: {
         getFood:({id})=> {
             return new Food(id, Food[id])
@@ -9,10 +7,10 @@ const resolvers = {
     },
     Mutation: {
         async signUp(args) {
-            // const user = await createUser(args.input);
-            return { user ,User};
+            const user = await createUser(args.input);
+            return { user };
         },
     },
 };
 
-export default resolvers;
+export { resolvers };

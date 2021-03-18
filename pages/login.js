@@ -46,7 +46,7 @@ const Login = () => {
           <Button size="lg" style={{ margin: "15px 50px", align: "center:" }}  variant="dark" type="submit">
             Login
         </Button>
-          <Button size="lg" style={{ margin: "15px 50px", align: "center:" }}  variant="dark" href='/signup' >
+          <Button size="lg" style={{ margin: "15px 50px", align: "center:" }}  variant="dark" href='signup' >
             Register
         </Button>
         </form>
