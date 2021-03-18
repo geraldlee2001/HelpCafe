@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import { gql,useMutation } from '@apollo/client'
 import { getErrorMessage } from '../lib/form'
-import { resolvers } from "../apollo/resolvers"
+const { resolvers } = require('../apollo/resolvers');
 import Field from '../components/Field'
 import Header from '../components/Header'
 import {Button,Form} from "react-bootstrap";

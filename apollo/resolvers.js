@@ -1,7 +1,6 @@
-import {createUser} from '../lib/user';
+const { createUser } = require('../lib/user');
 const User = {}
 const resolvers = {
-    
     Query: {
         getFood:({id})=> {
             return new Food(id, Food[id])
@@ -15,4 +14,4 @@ const resolvers = {
     },
 };
 
-export default resolvers;
+export { resolvers };
